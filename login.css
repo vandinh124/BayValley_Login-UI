@@ -58,20 +58,23 @@ input:focus::placeholder {
     width: 10%;
   }
 
-img {
-    width: 20px;
-    height: 20px;
-}
-
-.header img {
-    float: left;
-    width: 100px;
-    height: 100px;
-    background: #555;
+.icon {
+    width: 30%;
+    height: auto;
+    margin: 0px auto 0px;
+    display: block;
   }
   
   .header h1 {
     position: relative;
-    top: 18px;
     left: 10px;
+    text-align: center;
   }
+
+
+p {
+    text-decoration: underline;
+    color: #7b7d7e;
+}
+
+
