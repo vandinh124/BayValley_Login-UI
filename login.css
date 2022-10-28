@@ -1,5 +1,6 @@
 html,body{
     margin: 0px;
+    
 }
 
 .container {
@@ -8,7 +9,8 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-image: url(https://searenitymarine.com.au/wp-content/uploads/2018/03/blue-abstract-background.jpg);
 }
 
 .card   {
@@ -48,4 +50,28 @@ input {
 
 input:focus::placeholder {
     color: transparent;
+  }
+
+#remember {
+    margin: 0px;
+    padding: 0px;
+    width: 10%;
+  }
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
   }
