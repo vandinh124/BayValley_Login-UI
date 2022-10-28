@@ -1,0 +1,51 @@
+html,body{
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.card   {
+    /* border-style: none;
+    border-width: 4px; */
+    border-radius: 20px;
+    border-color: rgba(0,0,0,0.3);
+    background-color: white;
+    min-width: 25%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #4190C8;
+    min-width: 60%;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    align-self: center;
+    margin: 20px;
+}
+
+input {
+    border: none;
+    border-bottom: solid black 1px;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    width: 60%;
+    align-self: center;
+    
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
